@@ -1,0 +1,14 @@
+{
+  "name": "node-selenium-example",
+  "packageManager": "yarn@3.6.3",
+  "type": "module",
+  "scripts": {
+  	"start": "node bin/main.js",
+	"screenshot": "node bin/main.js -t screenshot",
+	"pdf": "node bin/main.js --type pdf"
+  },
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.12.0"
+  }
+}
